@@ -1,0 +1,22 @@
+# Vertices
+v 1.0 1.0 1.0   # Vértice 1 (superior)
+v 1.0 0.0 1.0   # Vértice 2
+v 0.0 0.0 1.0   # Vértice 3
+v 0.0 1.0 1.0   # Vértice 4
+v 0.0 0.0 0.0   # Vértice 5 (inferior)
+v 0.0 1.0 0.0   # Vértice 6
+v 1.0 0.0 0.0   # Vértice 7
+v 1.0 1.0 0.0   # Vértice 8
+
+# Caras (definidas por índices de vértices)
+f 1 2 3 4     # Cara superior del cubo
+f 5 6 7 8     # Cara inferior del cubo
+f 1 2 7 8     # Cara lateral del cubo
+f 2 3 6 7     # Cara lateral del cubo
+f 3 4 5 6     # Cara lateral del cubo
+f 4 1 8 5     # Cara lateral del cubo
+f 1 2 3       # Cara superior de la pirámide superior
+f 1 4 8       # Cara superior de la pirámide superior
+f 4 5 6       # Cara superior de la pirámide superior
+f 6 7 8       # Cara superior de la pirámide superior
+f 2 3 7       # Cara superior de la pirámide superior
